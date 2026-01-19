@@ -23,9 +23,9 @@ We demonstrate the efficiency of the algorithms on the original weather dataset 
 
 # **📊 Experiments**
 
-**1. Weather Dataset (Reproduction)**
+**1. Weather Dataset (Reproduction)** : https://www.kaggle.com/datasets/selfishgene/historical-hourly-weather-data?resource=download
 
-We replicated the results from the research paper using the Historical Hourly Weather Data: https://www.kaggle.com/datasets/selfishgene/historical-hourly-weather-data?resource=download
+We replicated the results from the research paper using the Historical Hourly Weather Data: 
 
 *  **Efficiency (Fig 8):** Compared the runtime of Baseline vs EXACT_u on city-specific temperature data. As expected, EXACT_u scales significantly better as the number of tuples ($n$) increases.  
 *  **City Support Analysis (Fig 5):** Calculated the support for the claim "Summer was colder than winter in 2012".
