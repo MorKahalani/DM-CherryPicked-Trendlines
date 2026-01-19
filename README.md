@@ -25,7 +25,7 @@ We demonstrate the efficiency of the algorithms on the original weather dataset 
 
 **1. Weather Dataset (Reproduction)**
 
-We replicated the results from the research paper using the Historical Hourly Weather Data:
+We replicated the results from the research paper using the Historical Hourly Weather Data: https://www.kaggle.com/datasets/selfishgene/historical-hourly-weather-data?resource=download
 
 *  **Efficiency (Fig 8):** Compared the runtime of Baseline vs EXACT_u on city-specific temperature data. As expected, EXACT_u scales significantly better as the number of tuples ($n$) increases.  
 *  **City Support Analysis (Fig 5):** Calculated the support for the claim "Summer was colder than winter in 2012".
@@ -34,7 +34,7 @@ We replicated the results from the research paper using the Historical Hourly We
        *  Beersheba: Showed the maximum (yet still low) support (~0.1).
        *  Overall Support: Consistently below 0.018, proving the claim is cherry-picked.
 
-**2. Bitcoin/Financial Dataset Analysis**
+**2. Bitcoin/Financial Dataset Analysis**: https://www.kaggle.com/datasets/mczielinski/bitcoin-historical-data
 
 We applied the EXACT_u algorithm to Bitcoin (BTC) price data to find misleading claims:
 
